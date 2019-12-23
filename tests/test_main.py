@@ -12,3 +12,6 @@ class TestFizzBuzz(unittest.TestCase):
 
     def test_2を渡したら文字列2を返す(self):  # 三角測量(Triangulation)
         self.assertEqual('2', fizzbuzz.convert(2))
+
+    def test_3を渡したら文字列Fizzを返す(self):
+        self.assertEqual('Fizz', fizzbuzz.convert(3))
