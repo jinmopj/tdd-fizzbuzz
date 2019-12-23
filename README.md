@@ -124,7 +124,7 @@
 (venv)$ python3 -m unittest tests.test_main
 ```
 
-##　TODOをさらに詳細にする
+## TODOをさらに詳細にする
 
 #### 正常系
 - [x] 数を文字列にして返す
