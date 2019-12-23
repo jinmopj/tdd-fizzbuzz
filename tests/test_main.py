@@ -10,14 +10,8 @@ class TestFizzBuzz(unittest.TestCase):
     def test_数を文字列にして返す_1を渡したら文字列1を返す(self):
         self.assertEqual('1', fizzbuzz.convert(1))
 
-    def test_数を文字列にして返す_2を渡したら文字列2を返す(self):  # 三角測量(Triangulation)
-        self.assertEqual('2', fizzbuzz.convert(2))
-
     def test_3の倍数のときは数の代わりにFizzと返す_3を渡したら文字列Fizzを返す(self):
         self.assertEqual('Fizz', fizzbuzz.convert(3))
-
-    def test_3の倍数のときは数の代わりにFizzと返す_6を渡したら文字列Fizzを返す(self):
-        self.assertEqual('Fizz', fizzbuzz.convert(6))
 
     def test_5の倍数のときはBuzzと返す_5を渡したら文字列Buzzを返す(self):
         self.assertEqual('Buzz', fizzbuzz.convert(5))
